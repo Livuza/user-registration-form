@@ -1,0 +1,3 @@
+Name: Charles
+Email: charles@gmail.com
+Password: 235
