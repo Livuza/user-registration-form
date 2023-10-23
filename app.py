@@ -55,6 +55,7 @@ class RegistrationApp(App):
         # validation
         if name.strip() == "" or email.strip() == ""  or password.strip() == "" or confirm_password.strip() == "":
             message = "Please fill in all fields"
+            message = "Any blank field will not allow you to sign up"
         elif password != confirm_password:
             message = "Password do not match"
         else:
